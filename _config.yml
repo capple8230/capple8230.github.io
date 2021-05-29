@@ -1,0 +1,36 @@
+# Site settings
+title: CAPPLE JUICE
+description: 'capple8230 blog'
+url: 'https://capple8230.github.io/'
+baseurl: ''
+profilepic: '/images/profile.jpg'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
+
+author:
+  name: 'Kim YeonJi'
+  email: Capple8230@gmail.com
+#  twitter_username: None
+#  facebook_username: None
+  github_username:  capple8230
+#  linkedin_username:  thomas-zühlke-889182165
+#  meetup_name: Azure-Meetup-Rostock-MV
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
